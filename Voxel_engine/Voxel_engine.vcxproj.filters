@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Window">
+      <UniqueIdentifier>{6f52b803-04ff-4772-a9f7-170856e8a925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Graphics">
+      <UniqueIdentifier>{22111172-ef39-420b-a262-d1912cc03a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\res">
+      <UniqueIdentifier>{0f1fecb9-d97a-4636-8b1d-002d9767d463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Loaders">
+      <UniqueIdentifier>{2e20deea-68e4-45ab-9005-dc8edcbbdb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\voxels">
+      <UniqueIdentifier>{cd4215f6-2672-4b93-9ed7-d7d12302d50a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="voxel_engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="png_loading.cpp">
+      <Filter>Исходные файлы\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Chank.cpp">
+      <Filter>Исходные файлы\voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelRenderer.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel.h">
+      <Filter>Исходные файлы\voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="Chank.h">
+      <Filter>Исходные файлы\voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelRenderer.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="png_loading.h">
+      <Filter>Исходные файлы\Loaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\res\fragment.glslf.txt">
+      <Filter>Файлы ресурсов\res</Filter>
+    </Text>
+    <Text Include="..\res\vertex.txt">
+      <Filter>Файлы ресурсов\res</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\testimg.png">
+      <Filter>Файлы ресурсов\res</Filter>
+    </Image>
+    <Image Include="..\res\block.png">
+      <Filter>Файлы ресурсов\res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
